@@ -13,10 +13,10 @@ function Header() {
           <img className="my-img w-75 mx-5" src={img} alt="" />
 
           <h6>
-            "Former Marine and Logistics Manager looking to make a transition
-            into the tech field. Seeking a position where I can use my excellent
-            organization skills and newly acquired software engineer skills to
-            create, develop, troubleshoot, Q/A new product."
+            "Full-Stack Software Engineer with 2+ years of experience with HTML,
+            CSS, Javascript, React and OOP languages such as Python and C++ and
+            some of their frameworks (Django and .Net). Problem solver and great
+            team-player. "
           </h6>
 
           <WebLinks />

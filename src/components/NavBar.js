@@ -16,7 +16,7 @@ function NavBar() {
             <Nav.Link>Resume</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/OtherProjects">
-            <Nav.Link>Other Projects</Nav.Link>
+            <Nav.Link>Projects</Nav.Link>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>

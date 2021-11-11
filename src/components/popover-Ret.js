@@ -8,18 +8,17 @@ function ResponRet() {
       <Popover.Title as="h4">Responsibilities</Popover.Title>
       <Popover.Content>
         <li>
-          Managed daily operations, administrative duties, scheduling and sales
+          Managed daily operations, administrative duties, scheduling, keyholder
         </li>
         <li>Trained, develop and managed store employees</li>
         <li>Inventory report and merchandising</li>
-        <li>Opened and closed the store at end of day</li>
       </Popover.Content>
     </Popover>
   );
 
   return (
     <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-      <Button variant="success">click to see Responsibilities</Button>
+      <Button variant="success">Responsibilities</Button>
     </OverlayTrigger>
   );
 }

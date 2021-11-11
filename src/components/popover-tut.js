@@ -4,10 +4,10 @@ import Popover from "react-bootstrap/Popover";
 import { Button } from "react-bootstrap";
 function ResponTut() {
   const popover = (
-    <Popover id="popover-basic">
+    <Popover>
       <Popover.Title as="h4">Responsibilities</Popover.Title>
       <Popover.Content>
-        <li>Part of the SNHU Kenzie Academy Coaching Program</li>
+        <li>Part of the Kenzie Academy Coaching Program</li>
         <li>Hold 1-1 online tutoring/coaching session with students.</li>
         <li>Hold software engineering online workshops</li>
         <li>Assist facilitators/instructors when needed</li>
@@ -17,7 +17,7 @@ function ResponTut() {
 
   return (
     <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-      <Button variant="success">click to see Responsibilities</Button>
+      <Button variant="success">Responsibilities</Button>
     </OverlayTrigger>
   );
 }

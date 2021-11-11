@@ -4,7 +4,7 @@ import Popover from "react-bootstrap/Popover";
 import { Button } from "react-bootstrap";
 function ResponMil() {
   const popover = (
-    <Popover id="popover-basic">
+    <Popover>
       <Popover.Title as="h4">Responsibilities</Popover.Title>
       <Popover.Content>
         <li>Rank: E-4/Corporal </li>
@@ -18,7 +18,7 @@ function ResponMil() {
   return (
     <OverlayTrigger trigger="click" placement="right" overlay={popover}>
       <Button variant="success" style={{ marginBottom: "5vh" }}>
-        click to see Responsibilities
+        Responsibilities
       </Button>
     </OverlayTrigger>
   );
