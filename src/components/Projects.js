@@ -42,7 +42,10 @@ function Projects() {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button variant="primary" href="/SEres/OtherProjects/TodoApp">
+            <Button
+              variant="primary"
+              href="https://efgon.github.io/lite-todo-app/"
+            >
               Check it out!
             </Button>
           </Card.Footer>
