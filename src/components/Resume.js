@@ -3,19 +3,19 @@ import React from "react";
 import ResponRet from "./popover-Ret";
 import ResponTut from "./popover-tut";
 import ResponMil from "./popover-mil";
-// import Details from "react-details";
+//import Details from "react-details";
 
 function Resume() {
   return (
     <div className="resume-header">
       <NavBar />
-      <div className="resume">
+      <div className="resume mx-5 mb-5">
         <h1 className="efren">Efren Gonzalez</h1>
-        <h6>Newark, NJ 07103</h6>
+        <h6>a: Newark, NJ 07103</h6>
         <h6>@: egonzalezgar@gmail.com</h6>
         <h6>#: (347) 602-0407</h6>
         <h2 className="developer"> Full-stack Software Engineer</h2>
-        <h6>JavaScript, React, Node.js, Python, Django, MongoDB</h6>
+        <h6>JavaScript, React, Node.js, Python, Django, MongoDB, SQL</h6>
         <details style={{ marginTop: "2rem" }} open>
           <summary>
             <h3>Objective</h3>
@@ -41,6 +41,8 @@ function Resume() {
             <li>HTML5</li>
             <li>Git </li>
             <li>MongoDB</li>
+            <li>SQL</li>
+            <li>API's</li>
           </ul>
         </details>
         <details>

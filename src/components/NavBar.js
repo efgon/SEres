@@ -1,20 +1,26 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 
 function NavBar() {
   return (
-    <React.Fragment>
-      <Navbar bg="dark" variant="light">
-        <Navbar.Brand href="/">Efren Gonzalez</Navbar.Brand>
-
-        <Nav className="mr-auto">
-          <Link to="/">Home</Link>
-          <Link to="/Resume">Resume</Link>
-          <Link to="/OtherProjects">Other Projects</Link>
+    <Navbar bg="dark" variant="light" expand="lg">
+      <Navbar.Brand href="/SEres">Efren Gonzalez</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="me-auto">
+          <LinkContainer to="/">
+            <Nav.Link>Home</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/Resume">
+            <Nav.Link>Resume</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/OtherProjects">
+            <Nav.Link>Other Projects</Nav.Link>
+          </LinkContainer>
         </Nav>
-      </Navbar>
-    </React.Fragment>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 export default NavBar;

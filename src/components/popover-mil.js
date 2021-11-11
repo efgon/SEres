@@ -16,7 +16,7 @@ function ResponMil() {
   );
 
   return (
-    <OverlayTrigger trigger="hover" placement="right" overlay={popover}>
+    <OverlayTrigger trigger="click" placement="right" overlay={popover}>
       <Button variant="success" style={{ marginBottom: "5vh" }}>
         click to see Responsibilities
       </Button>

@@ -3,7 +3,6 @@ import React from "react";
 function LetterP() {
   return (
     <div className="letter">
-      <NavBar />
       <h2>Cover Letter:</h2>
       <p>Dear Hiring Manager,</p>
       <p>
@@ -12,8 +11,7 @@ function LetterP() {
         years of experience as a manager in the retail industry. I graduated
         with an A.S. in Chemistry from CUNY Bronx Community College Campus in
         2012. When I’m not creating, researching or practicing my computers
-        skills, I’m usually keeping my body in tip-top shape by going to the gym
-        or going for a run.
+        skills, I'm lifting weights.
       </p>
       <p>
         Currently, I am a Full Stack Software Engineer (front and back -end)
@@ -32,8 +30,8 @@ function LetterP() {
       <p>
         I’m looking for a position in a company as a Software Engineer in which
         I can use my new learned skills and previous experiences to benefit a
-        company that can in return give me an oppportunity to make an impact in
-        this field and offers great benefits.
+        company that can in return give me an opportunity to make an impact in
+        the company and great benefits.
       </p>
     </div>
   );

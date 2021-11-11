@@ -15,47 +15,33 @@ h4 {
   margin-bottom: 0vh;
 }
 .my-img {
-  height: 40vmin;
   border-radius: 100%;
   pointer-events: none;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 .resume-header {
   background-color: #282c34;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-header {
-  margin-top: 0vh;
-  margin-left: 15vh;
-  margin-right: 0vh;
-}
-.mr-auto {
+
+/* .mr-auto {
   display: flex;
   justify-content: space-evenly;
-  /* color: lightgray; */
-}
-.nav-link {
+  /* color: lightgray; 
+}*/
+/* .nav-link {
   padding: 2vh;
   color: lightgrey;
-}
-.nav-link:hover {
+} */
+/* .nav-link:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 .App-link {
   color: #61dafb;
 }
@@ -68,25 +54,12 @@ header {
   align-items: stretch;
   justify-content: space-evenly;
 }
-.letter {
-  margin-left: 15vh;
-  margin-right: 15vh;
-}
+
 .resume {
   background: white;
   color: black;
-  margin-left: 30vh;
-  margin-right: 30vh;
-  padding-bottom: 10vh;
-  padding-left: 5vh;
-  padding-right: 5vh;
 }
-.efren {
-  margin-bottom: 0vh;
-}
-.developer {
-  margin-bottom: 0vh;
-}
+
 summary {
   border-bottom: solid;
 }

@@ -16,7 +16,7 @@ function ResponTut() {
   );
 
   return (
-    <OverlayTrigger trigger="hover" placement="right" overlay={popover}>
+    <OverlayTrigger trigger="click" placement="right" overlay={popover}>
       <Button variant="success">click to see Responsibilities</Button>
     </OverlayTrigger>
   );
