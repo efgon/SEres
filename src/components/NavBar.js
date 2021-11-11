@@ -4,7 +4,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 function NavBar() {
   return (
-    <Navbar bg="dark" variant="light" expand="lg">
+    <Navbar bg="light" variant="light" expand="lg">
       <Navbar.Brand href="/SEres">Efren Gonzalez</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

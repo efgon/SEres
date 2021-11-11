@@ -38,7 +38,7 @@ function Projects() {
           <Card.Body>
             <Card.Title>-Lite To-Do App-</Card.Title>
             <Card.Text>
-              Lite To-Do app. Small project to show use of state using React.{" "}
+              Lite To-Do app. Small project to show use of state in React.{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -47,7 +47,7 @@ function Projects() {
             </Button>
           </Card.Footer>
         </Card>
-        <Card className="mx-5 mt-5 mb-5">
+        {/* <Card className="mx-5 mt-5 mb-5">
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
             <Card.Title>Tower of Hanoi</Card.Title>
@@ -58,7 +58,7 @@ function Projects() {
           <Card.Footer>
             <Button variant="primary">Go somewhere</Button>
           </Card.Footer>
-        </Card>
+        </Card> */}
       </CardGroup>
     </div>
   );

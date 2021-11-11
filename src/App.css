@@ -45,9 +45,7 @@ h4 {
 .App-link {
   color: #61dafb;
 }
-.resume {
-  justify-content: center;
-}
+
 .web-link-logos {
   list-style-type: none;
   display: flex;
