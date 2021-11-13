@@ -11,7 +11,7 @@ function Resume() {
     <Container className="resume-header" fluid>
       <NavBar />
 
-      <div className="resume mx-5 mb-5">
+      <div className="resume mx-lg-5 mb-5">
         <h1 className="efren">Efren Gonzalez</h1>
         <Row>
           <Col>
@@ -81,7 +81,7 @@ function Resume() {
               </ul>
             </details>
           </Col>
-          <Col>
+          <Col sm>
             <details open>
               <summary>
                 <h3>Education</h3>
@@ -94,7 +94,7 @@ function Resume() {
             </details>
           </Col>
         </Row>
-        <details open>
+        <details open className="mb-5">
           <summary>
             <h3>Working Experience</h3>
           </summary>

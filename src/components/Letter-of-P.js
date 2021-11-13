@@ -28,8 +28,8 @@ function LetterP() {
         afraid to learn even more.
       </p>
       <p>
-        I graduated with an B.S. in Chemistry from Lehman College in 2012 and
-        also have a full -stack software engineer certificate from
+        I graduated with an B.S. in Chemistry from Lehman College in 2016 and
+        also have a full-stack software engineer certificate from
         Kenzie-Academy.{" "}
       </p>
       <p>

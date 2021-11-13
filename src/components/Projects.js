@@ -11,7 +11,7 @@ function Projects() {
   return (
     <div className="resume-header">
       <NavBar />
-      <CardGroup>
+      <CardGroup className="mb-5">
         <Card className="mx-5 mt-5 mb-5" style={{}}>
           <Card.Img variant="top" src={chapter} style={{}} />
           <Card.Body style={{}}>
