@@ -51,7 +51,7 @@ function Resume() {
           </summary>
           <p>
             Full-Stack Software Engineer with 2+ years of experience with HTML,
-            CSS, Javascript, React and OOP languages such as Python and C++ and
+            CSS, Javascript, React and OOP languages such as Python and C# and
             some of their frameworks (Django and .Net). Problem solver and great
             team-player.
           </p>
