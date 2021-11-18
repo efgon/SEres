@@ -13,7 +13,6 @@ function App() {
       <Route exact path="/" component={Header}></Route>
       <Route path="/Resume" component={Resume}></Route>
       <Route exact path="/OtherProjects" component={Projects}></Route>
-      {/* <Route exact path="/OtherProjects/TodoApp" component={TodoApp}></Route> */}
     </Switch>
   );
 }
