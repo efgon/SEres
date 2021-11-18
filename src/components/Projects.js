@@ -38,7 +38,8 @@ function Projects() {
           <Card.Body>
             <Card.Title>-Lite To-Do App-</Card.Title>
             <Card.Text>
-              Lite To-Do app. Small project to show use of state in React.{" "}
+              Lite To-Do app. Small project to show use of Redux and state in
+              React.{" "}
             </Card.Text>
           </Card.Body>
           <Card.Footer>
