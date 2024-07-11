@@ -43,21 +43,22 @@ function Resume() {
             </h6>
           </Col>
         </Row>
-        <h2 className="developer"> Full-stack Software Engineer</h2>
-        <h6>JavaScript, React, Node.js, Python, Django, MongoDB, SQL</h6>
+        <h2 className="developer"> Full-Stack Software Engineer</h2>
+        <h6>JavaScript, React, Angular, Python, Django, C++, SQL</h6>
         <details style={{ marginTop: "2rem" }} open>
           <summary>
             <h3>Summary</h3>
           </summary>
           <p>
-            Full-Stack Software Engineer with 2+ years of experience with HTML,
-            CSS, Javascript, React and OOP languages such as Python and C# and
-            some of their frameworks (Django and .Net). Problem solver and great
-            team-player.
+            Full-Stack Software Engineer with 6+ years of experience with OOP
+            languages such as Python and some of its frameworks (Django, Flask)
+            also JavaScript, Node.js, React, Angular, C++, SQL. Experience with
+            Cloud Services such as Microsoft Azure and AWS. Problem solver and
+            great team player.
           </p>
           <p>
             Proven experience working with RESTful API's and databases such as
-            SQL, MySQL, Mongoose.
+            SQL, MySQL.
           </p>
         </details>
         <Row>
@@ -72,12 +73,12 @@ function Resume() {
                 <li>JavaScript</li>
                 <li>React</li>
                 <li>Node.js</li>
-                <li>CSS</li>
-                <li>HTML5</li>
+                <li>Angular</li>
+                <li>C++</li>
                 <li>Git </li>
-                <li>MongoDB</li>
+                <li>Chat GPT, AI</li>
                 <li>SQL</li>
-                <li>API's</li>
+                <li>RESTful API's</li>
               </ul>
             </details>
           </Col>
@@ -86,9 +87,9 @@ function Resume() {
               <summary>
                 <h3>Education</h3>
               </summary>
-              <h4>Web Development Certificate (front and back - end)</h4>{" "}
-              <h6>Kenzie Academy of SNHU - Indianapolis, IN</h6>
-              <h6>October 2020 to October 2021</h6>
+              <h4>Software Engineer (Full-Stack)</h4>{" "}
+              <h6>SNHU - Indianapolis, IN</h6>
+              <h6>October 2019 to October 2021</h6>
               <h4>B.S. in Chemistry</h4> <h6>Lehman College - Bronx, NY</h6>
               <h6>August 2012 to June 2016</h6>
             </details>
@@ -98,14 +99,14 @@ function Resume() {
           <summary>
             <h3>Working Experience</h3>
           </summary>
+          <h4>Lead Software Engineer</h4>{" "}
+          <h6>A-V Services inc - Fairfield, NJ</h6>
+          <h6>December 2021 to Present</h6>
+          <ResponRet />
           <h4>Software Developer Tutor/Coach</h4>{" "}
           <h6>SNHU ONLINE CAMPUS - Indianapolis, IN</h6>
-          <h6>January 2021 to Present</h6>
+          <h6>January 2021 to January 2023</h6>
           <ResponTut />
-          <h4>Store Supervisor/Logistics</h4>{" "}
-          <h6>Brooks Brothers - New York, NY</h6>
-          <h6>March 2013 to 2020</h6>
-          <ResponRet />
           <h4>US Marine Corp / Corporal of Marines</h4>{" "}
           <h6>Camp Lejeune, NC</h6>
           <h6>January 2008 to 2014</h6>

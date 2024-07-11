@@ -8,10 +8,21 @@ function ResponRet() {
       <Popover.Title as="h4">Responsibilities</Popover.Title>
       <Popover.Content>
         <li>
-          Managed daily operations, administrative duties, scheduling, keyholder
+          Lead a team of developers to achieve goals using the Agile Method.
         </li>
-        <li>Trained, develop and managed store employees</li>
-        <li>Inventory report and merchandising</li>
+        <li>
+          Successfully build and develop a Web App for monitoring AV components
+          using Angular and Django Rest framework stack.
+        </li>
+        <li>Creating powerful REST API's.</li>
+        <li>
+          Managed Cloud base services such as Azure and AWS to host or launch
+          services.
+        </li>
+        <li>
+          Programming hardware and mini computers such as Raspberry Pi to
+          perform a continuous task with python and their OS (Raspbian, Linux).
+        </li>
       </Popover.Content>
     </Popover>
   );
